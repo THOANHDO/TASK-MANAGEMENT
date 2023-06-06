@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: "Sora", sans-serif;
+  background: #131517;
+}
+
+button,
+input,
+textarea,
+select {
+  font-size: inherit;
+  font-family: inherit;
+}
+
+/* 一緒のコーダ */
+
+.fiexd {
+  position: fixed;
+  top: -20px;
+}
+
+.container {
+  width: 1220px;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+/* header */
+.header {
+  z-index: 1;
+  background: #131517;
+  padding: 40px 0 20px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  column-gap: 30px;
+}
+
+.sign {
+  display: flex;
+  column-gap: 30px;
+}
+
+.navbar {
+  padding: 0 6px;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #858b93;
+}
+
+.sign-up,
+.sign-in {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  background: linear-gradient(90deg, #eb9204 -33.14%, #83e868 116.38%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
