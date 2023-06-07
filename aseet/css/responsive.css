@@ -1,8 +1,73 @@
 /* tablet anh mobile */
 @media screen and (max-width: 991px) {
   /* header */
+
+  .hidden-mobile {
+    display: block;
+  }
+
+  .sign-up,
   .nav {
     display: none;
+  }
+
+  .menu-overlay {
+    z-index: 1;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition) ease;
+  }
+
+  .menu-drawer {
+    position: fixed;
+    inset: 0 0 0 40%;
+    background: #a2a0a0;
+    z-index: 99;
+    transform: translateX(100%);
+    transition: var(--transition) ease;
+  }
+
+  .header-input:checked ~ .menu-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .header-input:checked ~ .menu-drawer {
+    transform: translateX(0);
+  }
+
+  .nav-mobile {
+    display: block;
+    margin-top: 100px;
+    color: #111;
+  }
+
+  .sign-mobile {
+    margin-top: 40px;
+    border-top: 3px solid #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .navbar-mobile {
+    display: block;
+    font-size: 3rem;
+    line-height: 1.15;
+    padding: 10px;
+    margin-top: 30px;
+  }
+
+  .actice-mobile {
+    background: #dcd6d6;
+  }
+
+  .sign-mobile__btn {
+    margin-top: 40px;
+    display: flex;
   }
 }
 
@@ -12,4 +77,59 @@
 
 /* mobile */
 @media screen and (max-width: 767px) {
+  .mobi-hidden {
+    display: none;
+  }
+
+  /* hero */
+
+  .hero__inner {
+    position: relative;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero-content:first-child {
+    position: absolute;
+    width: 24.12px;
+    height: 64px;
+    top: -18px;
+    left: 50px;
+    transform: rotate(270deg);
+  }
+
+  .hero-content:nth-child(2) {
+    max-width: 297px;
+  }
+
+  .hero__heading {
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.26;
+    width: 297px;
+  }
+
+  .hero-span {
+    padding: 1px;
+  }
+
+  .hero-content:last-child {
+    position: absolute;
+    width: 24.12px;
+    height: 64px;
+    right: 40px;
+    bottom: 120px;
+  }
+
+  .hero-btn {
+    margin-top: 30px;
+    flex-direction: column;
+    row-gap: 18px;
+  }
+
+  .hero__media {
+    margin-top: 82px;
+  }
 }

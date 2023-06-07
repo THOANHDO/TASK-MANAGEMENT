@@ -91,6 +91,7 @@
     <title>TASK-MANAGEMENT</title>
   </head>
   <body>
+    <!-- pc header -->
     <header class="header fiexd">
       <div class="container">
         <div class="header-inner">
@@ -99,7 +100,7 @@
           </a>
           <ul class="nav">
             <li>
-              <a href="#!" class="navbar">Home</a>
+              <a href="#!" class="navbar actice">Home</a>
             </li>
             <li>
               <a href="#!" class="navbar">Products</a>
@@ -119,8 +120,106 @@
               <a href="#!" class="sign-in">Sign In</a>
             </div>
           </div>
+          <!-- header mobile and tablet -->
+          <div class="hidden-mobile">
+            <label class="header-mobile__inner" for="header-input">
+              <svg
+                width="24"
+                height="16"
+                viewBox="0 0 24 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect y="13.7143" width="24" height="2.28571" fill="#9FA2A8" />
+                <rect y="6.85715" width="24" height="2.28571" fill="#9FA2A8" />
+                <rect width="24" height="2.28571" fill="#9FA2A8" />
+              </svg>
+            </label>
+          </div>
         </div>
       </div>
     </header>
+    <!-- tablet/mobile header -->
+    <header class="mobile-header">
+      <input
+        type="checkbox"
+        name=""
+        id="header-input"
+        class="header-input"
+        hidden
+      />
+      <!-- overlay -->
+      <label for="header-input" class="menu-overlay"></label>
+      <!-- menu -->
+      <div class="menu-drawer">
+        <ul class="nav nav-mobile">
+          <li>
+            <a href="#!" class="navbar navbar-mobile actice actice-mobile"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="#!" class="navbar navbar-mobile">Products</a>
+          </li>
+          <li>
+            <a href="#!" class="navbar navbar-mobile">Guidlines</a>
+          </li>
+          <li>
+            <a href="#!" class="navbar navbar-mobile">Review</a>
+          </li>
+        </ul>
+        <div class="sign sign-mobile">
+          <div>
+            <a href="#!" class="sign-up sign-mobile__btn">Sign Up</a>
+          </div>
+          <div>
+            <a href="#!" class="sign-in sign-mobile__btn">Sign In</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero-content">
+              <img src="./aseet/icon/abstract.svg" alt="" class="abstract" />
+            </div>
+            <div class="hero-content">
+              <h1 class="section-heading hero__heading">
+                Make
+                <strong class="section-span hero-span"
+                  >Management
+                  <div class="rectangle"></div>
+                  <div class="rectangle"></div>
+                  <div class="rectangle"></div>
+                  <div class="rectangle"></div>
+                </strong>
+                Way More Easier Than Ever
+              </h1>
+              <p class="section-desc hero-desc mobi-hidden">
+                The online collaborative management platform to bring more
+                efficiency and performace
+              </p>
+              <div class="hero-btn">
+                <a href="#!" class="hero-btn__inner btn-active">Request Demo</a>
+                <a href="#!" class="hero-btn__inner">Contact Us</a>
+              </div>
+            </div>
+            <div class="hero-content">
+              <img src="./aseet/icon/abstract.svg" alt="" class="abstract" />
+            </div>
+          </div>
+          <!-- hero-media -->
+          <div class="hero__media">
+            <img
+              src="./aseet/img/hero-media.svg"
+              alt=""
+              class="hero__media--inner"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
