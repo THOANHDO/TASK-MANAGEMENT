@@ -439,7 +439,7 @@ a {
 }
 
 .task--media__content {
-  max-width: 100%;
+  width: 100%;
 }
 
 .media--btn{
@@ -461,21 +461,21 @@ a {
 }
 
 .btn-1{
-  top: 0;
-  left: 0;
+  top: 12%;
+  left: 0.95%;
 }
 
 .btn-2{
- top: 55px;
- right: 43px;
+ top: 10.5%;
+ right: 8.1%;
 }
 .btn-3{
-  left: -42px;
-  bottom: 119px;
+  left: -8%;
+  bottom: 28%;
 }
 .btn-4{
-  right: -32px;
-  bottom: 45px;
+  right: 5.3%;
+  bottom: 15%;
 }
 
 .btn-1 .media--btn__content{
