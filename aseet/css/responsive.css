@@ -120,14 +120,23 @@
     margin-top: 80px;
     width: 100%;
   }
+
+  .task--media__inner {
+    left: 8%;
+  }
+
   .media--btn__content {
-    font-size: 0.7rem;
     line-height: 1.2;
   }
 
   .media--btn__avatar-icon {
-    width: 20px;
-    height: 20px;
+    width: 25px;
+    height: 25px;
+  }
+
+  /* features */
+  .features__inner {
+    flex-direction: column;
   }
 }
 
@@ -208,6 +217,16 @@
 
   .hero__media {
     margin-top: 82px;
+  }
+
+  /* task */
+  .media--btn__content {
+    font-size: 0.7rem;
+  }
+
+  .media-btn__flay {
+    width: 20px;
+    height: 20px;
   }
 }
 
