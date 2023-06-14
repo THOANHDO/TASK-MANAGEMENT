@@ -119,10 +119,11 @@
   .task--media {
     margin-top: 80px;
     width: 100%;
+    padding: 0 7%;
   }
 
-  .task--media__inner {
-    left: 8%;
+  .task--media__content {
+    width: 100%;
   }
 
   .media--btn__content {
