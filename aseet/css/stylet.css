@@ -555,5 +555,76 @@ justify-content: space-between;
 .features{
   margin-top: 140px;
   background: #191B1D;
-  padding: 136px 0 80px 152px;
+}
+
+.features__inner{
+  padding: 136px 0 80px;
+  display: flex;
+  align-items: center;
+  column-gap: 75px;
+}
+
+.features-heading{
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.content-left {
+  width: 50%;
+}
+
+.features-img {
+  width: 100%;
+}
+
+.content-right{
+  width: 50%;
+}
+
+.features-card{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 22px;
+  margin-top: 50px;
+}
+
+.cards{
+  height: 87px;
+  display: flex;
+}
+
+.check{
+  position: relative;
+  margin-right: 23px;
+  border-radius: 7px;
+  width: 20px;
+  height: 19px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.check-btn-1{
+  background: #0CCE84;
+
+}
+.check-btn-2{
+  background: #EF8F00;
+}
+.check-btn-3{
+background: #AE8FF9;
+}
+.check-btn-4{
+background: #FF7667;
+}
+
+.cards-title{
+  color: #f9f9f9;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+.cards-desc{
+  margin-top: 8px;
 }

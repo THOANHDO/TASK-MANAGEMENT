@@ -137,7 +137,24 @@
 
   /* features */
   .features__inner {
+    margin-top: 98px;
     flex-direction: column;
+    padding: 60px 0 0 28px;
+  }
+
+  .content-right {
+    width: 100%;
+  }
+
+  .content-left {
+    width: 100%;
+  }
+
+  .features-heading {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
 }
 
@@ -159,6 +176,10 @@
 
   .task--media {
     width: 100%;
+  }
+  /* features */
+  .features-heading {
+    max-width: 300px;
   }
 }
 
@@ -228,6 +249,20 @@
   .media-btn__flay {
     width: 20px;
     height: 20px;
+  }
+
+  /* features */
+  .features-card {
+    grid-template-columns: 1fr;
+    max-width: 240px;
+  }
+
+  .features-heading {
+    max-width: 240px;
+  }
+
+  .cards:not(.cards:first-child) {
+    margin-top: 34px;
   }
 }
 
