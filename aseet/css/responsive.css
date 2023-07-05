@@ -139,7 +139,7 @@
   .features__inner {
     margin-top: 98px;
     flex-direction: column;
-    padding: 60px 0 0 28px;
+    padding: 60px 28px;
   }
 
   .content-right {
