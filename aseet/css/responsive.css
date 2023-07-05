@@ -255,6 +255,7 @@
   .features-card {
     grid-template-columns: 1fr;
     max-width: 240px;
+    margin-left: 20px;
   }
 
   .features-heading {
