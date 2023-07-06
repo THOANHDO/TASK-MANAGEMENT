@@ -156,6 +156,20 @@
     font-weight: 600;
     line-height: normal;
   }
+
+  /* about */
+  .about {
+    margin-top: 80px;
+  }
+
+  .about-aside,
+  .about-grid {
+    margin-top: 20px;
+  }
+
+  .about-media {
+    margin-top: 32px;
+  }
 }
 
 /* tablet */
@@ -180,6 +194,16 @@
   /* features */
   .features-heading {
     max-width: 300px;
+  }
+
+  /* about */
+  .about-grid {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+  }
+
+  .about-aside:nth-last-child(-n + 2) {
+    margin-left: 100%;
   }
 }
 
@@ -264,6 +288,16 @@
 
   .cards:not(.cards:first-child) {
     margin-top: 34px;
+  }
+
+  /* about */
+  .about-grid {
+    grid-template-columns: 1fr;
+    row-gap: 26px;
+  }
+
+  .about-aside {
+    margin: 0 auto 0;
   }
 }
 
