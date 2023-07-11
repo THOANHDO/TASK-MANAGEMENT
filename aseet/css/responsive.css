@@ -170,8 +170,50 @@
   .about-media {
     margin-top: 32px;
   }
-}
 
+  /* benefits */
+  .benefits {
+    margin-top: 46px;
+  }
+
+  .benefits__inner {
+    flex-direction: column;
+    row-gap: 70px;
+  }
+
+  .benefits-preview {
+    width: 100%;
+  }
+
+  .benefits-media {
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+
+  .benefits-media__imgs {
+    margin-top: 0;
+    margin-bottom: 60px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .benefits-hidden {
+    display: none;
+  }
+
+  .benefits-media__imgs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 27px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .benefits-media__wrap {
+    position: static;
+  }
+}
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 991px) {
   /* hero */

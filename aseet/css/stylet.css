@@ -684,3 +684,136 @@ color: #858B93;
 .about-media__img{
   width: 100%;
 }
+
+/* benefits */
+.benefits{
+  margin-top: 140px;
+}
+
+.benefits__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.benefits-preview{
+  width: 45%;
+}
+
+.preview-wrapper{
+  margin-top: 67px;
+}
+
+.preview-active{
+  background: #282C30;
+}
+
+.preview-wrapper__wrap{
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+border: 2px solid #282C30;
+padding: 29px 80px 29px 40px;
+}
+
+.preview-wrapper__wrap:not(.preview-wrapper__wrap:first-child){
+  margin-top: 16px;
+}
+
+.preview-wrapper__wrap--heading{
+  position: relative;
+color: #F9F9F9;
+font-size: 2.8rem;
+font-weight: 600;
+}
+
+.preview-wrapper__wrap--heading::after{
+  position: absolute;
+  margin-left: 6px;
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #EF8F00;
+  border-radius: 99%;
+  bottom: 0;
+}
+
+.preview-wrapper__wrap:nth-child(2) .preview-wrapper__wrap--heading::after{
+  background: #0CCE84;
+}
+
+.preview-wrapper__wrap:nth-child(3) .preview-wrapper__wrap--heading::after{
+  background: #FF7667;
+}
+
+.preview-wrapper__wrap--desc{
+  margin-top: 10px;
+  color: #858B93;
+  font-family: Sora ,sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;   
+}
+
+.benefits-media{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefits-media__btn--link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 218px;
+  height: 68px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1;
+  color: rgba(131, 232, 104, 1);
+  border: 2px solid #36383E;
+  background: #131517;
+  border-radius: 12px;
+  transition: var(--transition);
+}
+
+.benefits-media__btn--link:hover{
+  background: #61E559;
+  color: #fff;
+}
+
+.benefits-media__imgs{
+  position: relative;
+  margin-top: 78px;
+  width: 548px;
+  height: 615px;
+}
+
+.benefits-media__wrap{
+  position: absolute;
+}
+
+.benefits-media__wrap:first-child{
+  left: 0;
+  top: 0;
+}
+
+.benefits-media__wrap:nth-child(2){
+  top: 160px;
+  right: 0;
+}
+
+.benefits-media__wrap:nth-child(3){
+  bottom: 0;
+  left: 0;
+}
+
+.benefits-media__wrap--img{
+  width: 348px;
+  height: 263px;
+  object-fit: cover;
+  border-radius: 31px;
+  box-shadow: 0px 4px 89px 27px rgba(0, 0, 0, 0.40);
+  border: 3px solid transparent;
+  background: linear-gradient(to right, #a7ef4c, #ff5435, #ef8f00) border-box;
+}
