@@ -213,6 +213,12 @@
   .benefits-media__wrap {
     position: static;
   }
+
+  /* blog  */
+  .blog__inner {
+    flex-direction: column;
+    row-gap: 40px;
+  }
 }
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 991px) {
