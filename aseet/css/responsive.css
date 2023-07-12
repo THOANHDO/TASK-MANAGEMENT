@@ -219,6 +219,45 @@
     flex-direction: column;
     row-gap: 40px;
   }
+
+  /* testmonials */
+  .testmonials {
+    margin-top: 80px;
+  }
+
+  .test-wrap {
+    flex-direction: column-reverse;
+  }
+
+  .testmonials-hidden-mobi {
+    text-align: center;
+    margin-bottom: 17px;
+  }
+
+  .testmonials__inner {
+    flex-direction: column;
+  }
+
+  .testmonials-review:not(:first-child) {
+    display: none;
+  }
+
+  .testmonials-controls {
+    margin-top: 0;
+    margin-bottom: 29px;
+  }
+
+  .test-ellipse {
+    margin-top: 20px;
+  }
+
+  .task-hidden {
+    display: flex;
+  }
+
+  .test-wrap {
+    padding-bottom: 78px;
+  }
 }
 /* tablet */
 @media screen and (min-width: 768px) and (max-width: 991px) {
