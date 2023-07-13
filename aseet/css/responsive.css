@@ -2,6 +2,10 @@
 @media screen and (max-width: 991px) {
   /* header */
 
+  .hidden-pc {
+    display: none;
+  }
+
   .hidden-mobile {
     display: block;
   }
@@ -257,6 +261,34 @@
 
   .test-wrap {
     padding-bottom: 78px;
+  }
+
+  /* footer  */
+  .footer-top__question {
+    left: 0;
+    right: 0;
+    margin: auto;
+    flex-direction: column;
+    row-gap: 27px;
+  }
+
+  .footer-mobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .footer-email__input {
+    margin-top: 0;
+  }
+
+  .footer-bottom {
+    margin-top: 67px;
+    padding-bottom: 44px;
+  }
+
+  .footer-botoom__left {
+    width: 100%;
   }
 }
 /* tablet */
